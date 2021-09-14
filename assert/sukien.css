@@ -1,0 +1,39 @@
+.sukien {
+    position: relative;
+    
+
+}
+.sukien2 {
+    display: none;
+}
+
+
+
+.sukien-list {
+    position: absolute;
+    width: 120px;
+    height: 80px;
+    z-index: 2;
+    top: 100%;
+    background-color: #fff;
+    box-shadow: 2px 1px 2px #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    /* display: none; */
+    
+
+}
+.sukien1:hover .sukien2 {
+    display: block;
+}
+
+.sukien-item {
+    margin: 5px 0 0 8px;
+    font-size: 16px;
+    font-weight: 450;
+
+}
+
+.sukien-item:hover {
+    color: red;
+}

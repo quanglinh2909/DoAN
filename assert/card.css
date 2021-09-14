@@ -1,0 +1,44 @@
+.sp-respon{
+    display: none;
+}
+@media all and (max-width: 420px) {
+
+    .cart {
+        padding:  0px;
+    }
+    .title-sp{
+        display: none;
+    }
+    .sp-gio-hang{
+        display: block;
+    }
+    .cart-content-left{
+        display: none;
+    }
+    .sp-respon{
+        display: block;
+        width: 100%;
+    }
+    .mau-sp{
+        display: flex;
+    }
+    .sp-chon{
+        border-bottom: solid 2px black;
+        margin-top: 20px;
+    }
+    .container {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 30px;
+    }
+    .mota{
+        margin-top: 20px;
+    }
+    .cart-content-right{
+        margin-top: 20px;
+    }
+    .btn-lick{
+        width: 200px;
+        margin-top: 10px
+    }
+}
